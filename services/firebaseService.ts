@@ -20,7 +20,7 @@ import {
     orderBy,
     Timestamp
 } from 'firebase/firestore';
-import type { Note } from '../types';
+import type { Note } from './types';
 
 // --- Firebase Configuration ---
 const firebaseConfig = {
